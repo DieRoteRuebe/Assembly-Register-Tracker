@@ -6,8 +6,8 @@ import { OperationReturnItem } from "../types/OperationsReturnItem";
 
 export const PerformOperation = (op: Operation, regs: RegisterItem[]): OperationReturnItem => {
     let result: bigint = BigInt(0);
-    let val1 = BigInt(regs[0].registerValue);
-    let val2 = BigInt(regs[1].registerValue);
+    const val1 = BigInt(regs[0].registerValue);
+    const val2 = BigInt(regs[1].registerValue);
     let mod_val: bigint = BigInt(0)
     let div_flag = false;
     const flags: CTF_Flags = {

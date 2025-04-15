@@ -3,4 +3,5 @@ export interface CTF_Flags {
     CF: boolean;
     ZF: boolean;
     SF: boolean;
+    error: boolean;
 }

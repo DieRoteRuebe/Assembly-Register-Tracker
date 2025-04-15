@@ -1,4 +1,3 @@
-import React from "react";
 import { Operation } from "../types/Operation";
 
 interface OperationsCard_Props {

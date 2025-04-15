@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react';
+//import React from 'react';
+
 import { useState } from 'react'
 import './styles/App.css'
-
+import { useEffect } from 'react';
 
 //types:
-import { Register, RegisterItem } from './types/Register.ts'
+import { RegisterItem } from './types/Register.ts'
 import { Operation } from './types/Operation.ts';
 import { OperationReturnItem } from './types/OperationsReturnItem.ts';
 
