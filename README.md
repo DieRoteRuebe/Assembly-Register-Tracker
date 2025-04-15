@@ -1,54 +1,43 @@
-# React + TypeScript + Vite
+# 🛠️ Assembly Register Visualizer (WIP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This tool is designed to make programming in **Assembly** easier and more visual.  
+Built with **React**, it follows the **Intel register naming convention** to provide an intuitive way to visualize registers and their current state (e.g. `used`, `free`).
 
-Currently, two official plugins are available:
+I use this tool to **track variables and register usage** in my own coding projects, especially for low-level development in Assembly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔍 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ✅ **Visual Register State**
+  - Shows registers as either `used` or `free`
+  - Helps manage register allocation during development
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 🔁 **Stack Operations**
+  - `push` a register to the stack  
+  - `pop` a register back into use
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 🧮 **Bitwise & Arithmetic Operations**
+  - Perform operations like:
+    - Bitwise: `AND (&)`, `OR (|)`, `XOR (^)`
+    - Arithmetic: `+`, `-`, `*`, `/`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🚧 Work in Progress
+
+This tool is still under active development. Planned features include:
+
+- ⌨️ Scripting support
+- 📈 Enhanced visual UI
+- 🛠️ More instruction types (e.g. shifts, jumps)
+- 💾 Project save/load functionality
+
+---
+
+## 📌 Goal
+
+To create an intuitive interface that helps **Assembly developers** visualize and manage low-level operations more easily, and ultimately reduce mental overhead when working with register-heavy code.
+
+Stay tuned — more tooling is on the way!
+
