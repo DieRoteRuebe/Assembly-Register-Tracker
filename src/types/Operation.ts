@@ -1,0 +1,1 @@
+export type Operation = "AND" | "OR" | "XOR" | "ADD" | "SUB" | "MUL" | "IMUL" | "DIV" | "MOD" | null;
