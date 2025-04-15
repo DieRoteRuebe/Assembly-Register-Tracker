@@ -41,3 +41,10 @@ To create an intuitive interface that helps **Assembly developers** visualize an
 
 Stay tuned — more tooling is on the way!
 
+
+## License Generator Script
+
+This project includes a script to generate a third-party license file. To generate the `THIRDPARTYLICENSES.md` file, you can run the following command:
+
+```bash
+node generate-licenses.js
