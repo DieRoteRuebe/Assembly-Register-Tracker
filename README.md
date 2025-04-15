@@ -31,8 +31,8 @@ To run the project locally, follow these steps:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/react_ts_register_tracker.git
-cd react_ts_register_tracker
+git clone https://github.com/DieRoteRuebe/Register-Tracker.git
+cd Register-Tracker
 ```
 
 2. **Install dependencies**
