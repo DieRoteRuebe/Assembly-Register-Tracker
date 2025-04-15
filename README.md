@@ -44,7 +44,7 @@ Stay tuned — more tooling is on the way!
 
 ## License Generator Script
 
-This project includes a script to generate a third-party license file. To generate the `THIRDPARTYLICENSES.md` file, you can run the following command:
+This project includes a script to generate a third-party license file from a license.json generated via `license-checker --json > licenses.json`. To generate the `THIRDPARTYLICENSES.md` file, you can run the following command:
 
 ```bash
 node generate-licenses.js
