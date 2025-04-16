@@ -1,4 +1,4 @@
-# 🛠️ Assembly Register Visualizer (WIP)
+# 🛠️ Assembly Register Visualizer/Tracker (WIP)
 
 This tool is designed to make programming in **Assembly** easier and more visual.  
 Built with **React**, it follows the **Intel register naming convention** to provide an intuitive way to visualize registers and their current state (e.g. `used`, `free`).
